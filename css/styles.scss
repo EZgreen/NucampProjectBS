@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -28,15 +29,10 @@ header {
 
 .site-footer {
     background-image: linear-gradient($color-pale, white);
-    padding: 20px 0;
+    padding: 50px 0;
+    margin: 20px;
 }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
-}
 
 .row-content {
     padding: 50px 0;
@@ -48,25 +44,20 @@ header {
     background-color: $color-mid;
 }
 
-.carousel {
-    border: solid $color-secondary;
-}
 
-.carousel-caption {
-    background-color: $color-black-transparent;
-}
-
-.carousel {
-    border: $color-secondary;
-}
 
 .modal-dialog {
     background-color: white;
 }
 
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        
+        h3 {
+            color: white;
+            margin-left: 15px;
+        }
+    }
 }
