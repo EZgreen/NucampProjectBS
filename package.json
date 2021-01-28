@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "atkas-friends",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsiites review site Nucamp",
+  "description": "This is a website for local pet friendly businesses",
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
